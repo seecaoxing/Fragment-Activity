@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.caoxing.newtest.fragment_activity.BottomControlPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_vertical">
+
+    <com.caoxing.newtest.fragment_activity.ImageText
+        android:id="@+id/btn_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <com.caoxing.newtest.fragment_activity.ImageText
+
+        android:id="@+id/btn_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_message" />
+
+    <com.caoxing.newtest.fragment_activity.ImageText
+
+        android:id="@+id/btn_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_contacts" />
+
+    <com.caoxing.newtest.fragment_activity.ImageText
+
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_news" />
+</com.caoxing.newtest.fragment_activity.BottomControlPanel>
